@@ -1,0 +1,100 @@
+body{
+    background-color: #7d65ff;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    margin: 10px;
+    padding: 20px;
+}
+header{
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+header img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+main{
+    align-items: center;
+    line-height: 1.6;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+form{
+    align-items: center;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 25px;
+    max-width: 1000px;
+    border-radius: 10px;
+    color: #000000;
+}
+fieldset{
+    width: 100%;
+    max-width: 900px;
+    box-sizing: border-box;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    display: block;
+}
+input[type="text"], input[type="datetime-local"], select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.menu-item{
+    display: block;
+    margin-bottom: 10px;
+}
+.button{
+    background-color: #ffffff;
+    color: #7d65ff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+input[type="submit"], input[type="reset"]{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+    background-color: #7d65ff;
+    color: #ffffff;
+}
+input:focus,
+select:focus, textarea:focus{
+    outline: 3px solid #7d65ff;
+}
+@media (max-width: 768px) {
+    body{
+        padding: 10px;
+    }
+    form{
+        width: 100%;
+    }
+    input[type="text"], select, textarea{
+        width: 100%;
+    }
+}
+@media (max-width: 390px) {
+    input[type="submit"], input[type="reset"]{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
