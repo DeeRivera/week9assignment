@@ -16,7 +16,7 @@
     <main>
         <h2>Place Your Order Online</h2>
         <p>Complete the form below to submit your pickup order</p>
-            <form action="#" method="post">
+            <form action="https://formspree.io/f/xkjrjvog" method="POST">
                 <fieldset>
                     <legend>Customer Information</legend>
 
@@ -24,40 +24,40 @@
                     <input type="text" id="customername" name="customername">
                     
                     <label for="email">Email Address:</label>
-                    <input type="text" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
 
                     <label for="phone">Phone Number:</label>
-                    <input type="text" id="phone" name="phone">
+                    <input type="tel" id="phone" name="phone" required>
                 </fieldset>
                 <fieldset>
                     <legend>Appetizers</legend>
                     
                     <div class="menu-item">
-                        <input type="checkbox" id="GuacamoleChips" name="food">
+                        <input type="checkbox" id="GuacamoleChips" name="food" value="Guacamole & Chips">
                         <label for="GuacamoleChips">
                             Guacamole & Chips $12.99
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="FrenchFries" name="food">
+                        <input type="checkbox" id="FrenchFries" name="food" value="French Fries">
                         <label for="FrenchFries">
                             French Fries $5.99
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="ChickenFingers" name="food">
+                        <input type="checkbox" id="ChickenFingers" name="food" value="Chicken Fingers">
                         <label for="ChickenFingers">
                             Chicken Fingers $7.99
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="JalapenosPoppers" name="food">
+                        <input type="checkbox" id="JalapenosPoppers" name="food" value="Jalapenos Poppers">
                         <label for="JalapenosPoppers">
                             Jalapenos Poppers $7.99
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="EloteLoco" name="food">
+                        <input type="checkbox" id="EloteLoco" name="food" value="Elote Loco">
                         <label for="EloteLoco">
                             Elote Loco $5.99
                         </label>
@@ -67,115 +67,115 @@
                     <legend>Main Courses</legend>
 
                     <div class="menu-item">
-                        <input type="checkbox" id="BuffaloWings" name="food">
+                        <input type="checkbox" id="BuffaloWings" name="food" value="Buffalo Wings">
                         <label for="BuffaloWings">
                             10 Buffalo Wings $14.99
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="Salad" name="food">
+                        <input type="checkbox" id="Salad" name="food" value="Chicken Caesar Salad">
                         <label for="Salad">
                             Chicken Caesar Salad $10.99                        
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="ShrimpSalad" name="food">
+                        <input type="checkbox" id="ShrimpSalad" name="food" value="Shrimp Salad">
                         <label for="ShrimpSalad">
                             Shrimp Salad $12.99                        
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="PolloNachos" name="food">
+                        <input type="checkbox" id="PolloNachos" name="food" value="Pollo Nachos">
                         <label for="PolloNachos">
                             Pollo Nacchos $17.99                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="AlPastorNachos" name="food">
+                        <input type="checkbox" id="AlPastorNachos" name="food" value="Al Pastor Nachos">
                         <label for="AlPastorNachos">
                             Al Pastor Chicken Nacchos $17.99                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="TingaNachos" name="food">
+                        <input type="checkbox" id="TingaNachos" name="food" value="Tinga Nachos">
                         <label for="TingaNachos">
                             Tinga Nacchos $17.99                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="CamaronesNachos" name="food">
+                        <input type="checkbox" id="CamaronesNachos" name="food" value="Camarones Nachos">
                         <label for="CamaronesNachos">
                             Camarones Nacchos $17.99                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="VeggieNachos" name="food">
+                        <input type="checkbox" id="VeggieNachos" name="food" value="Veggie Nachos">
                         <label for="VeggieNachos">
                             Veggie Nacchos $17.99                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="AsadaQuesadilla" name="food">
+                        <input type="checkbox" id="AsadaQuesadilla" name="food" value="Asada Tex Mex Quesadilla">
                         <label for="AsadaQuesadilla">
                             Asada Tex Mex Quesadilla $15.49                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="PolloQuesadilla" name="food">
+                        <input type="checkbox" id="PolloQuesadilla" name="food" value="Pollo Tex Mex Quesadilla">
                         <label for="PolloQuesadilla">
                             Pollo Tex Mex Quesadilla $15.49                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="CamaronesQuesadilla" name="food">
+                        <input type="checkbox" id="CamaronesQuesadilla" name="food" value="Camarones Tex Mex Quesadilla">
                         <label for="CamaronesQuesadilla">
                             Camarones Tex Mex Quesadilla $15.49                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="VeggieQuesadilla" name="food">
+                        <input type="checkbox" id="VeggieQuesadilla" name="food" value="Veggie Tex Mex Quesadilla">
                         <label for="VeggieQuesadilla">
                             Veggie Tex Mex Quesadilla $15.49                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="AsadaStreetTacos" name="food">
+                        <input type="checkbox" id="AsadaStreetTacos" name="food" value="Asada Street Tacos">
                         <label for="AsadaStreetTacos">
                             Asada Street Tacos $14.99                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="PolloStreetTacos" name="food">
+                        <input type="checkbox" id="PolloStreetTacos" name="food" value="Pollo Street Tacos">
                         <label for="PolloStreetTacos">
                             Pollo Street Tacos $14.99                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="CamaronesStreetTacos" name="food">
+                        <input type="checkbox" id="CamaronesStreetTacos" name="food" value="Camarones Street Tacos">
                         <label for="CamaronesStreetTacos">
                             Camarones Street Tacos $14.99                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="VeggieStreetTacos" name="food">
+                        <input type="checkbox" id="VeggieStreetTacos" name="food" value="Veggie Street Tacos">
                         <label for="VeggieStreetTacos">
                             Veggie Street Tacos $14.99                   
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="BirraTacos" name="food">
+                        <input type="checkbox" id="BirraTacos" name="food" value="Birra Tacos">
                         <label for="BirraTacos">
                             3 Birra Tacos with consome $19.99                
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="ChickenBirraTacos" name="food">
+                        <input type="checkbox" id="ChickenBirraTacos" name="food" value="Chicken Birra Tacos">
                         <label for="ChickenBirraTacos">
                             3 Chicken Birra Tacos with consome $19.99                
                         </label>
                     </div>
                     <div class="menu-item">
-                        <input type="checkbox" id="ShrimpBirraTacos" name="food">
+                        <input type="checkbox" id="ShrimpBirraTacos" name="food" value="Shrimp Birra Tacos">
                         <label for="ShrimpBirraTacos">
                             3 Shrimp Birra Tacos with consome $19.99                
                         </label>
@@ -185,15 +185,22 @@
                     <legend>Customize Your Order</legend>
                         <p>Choose your preferred toppings and sauces.</p>
 
-                        <input type="radio" id="guacamole" name="extras">
-                        <label for="guacamole">Add Guacamole $2.99</label>
-                        <input type="radio" id="sourcream" name="extras">
-                        <label for="sourcream">Add Sour Cream $1.99</label>
-                        <input type="radio" id="jalapenos" name="extras">
-                        <label for="jalapenos">Add Jalapeños $0.99</label>
-                        <input type="radio" id="extracheese" name="extras">
-                        <label for="extracheese">Extra Cheese $1.99</label>
-                        <label for="Drinks">Choose Your Drink:</label>
+                        <div class="radio-option">
+                            <input type="radio" id="guacamole" name="extras" value="guacamole">
+                            <label for="guacamole">Add Guacamole $2.99</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="sourcream" name="extras" value="sourcream">
+                            <label for="sourcream">Add Sour Cream $1.99</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="jalapenos" name="extras" value="jalapenos">
+                            <label for="jalapenos">Add Jalapeños $0.99</label>
+                        </div>
+                        <div class="radio-option">
+                            <input type="radio" id="extracheese" name="extras" value="extracheese">
+                            <label for="extracheese">Extra Cheese $1.99</label>
+                        </div>
                         <select id="Drinks" name="Drinks">
                             <option value="Coke">Coke $1.99</option>
                             <option value="DietCoke">Diet Coke $1.99</option>
@@ -207,12 +214,13 @@
                 </fieldset>
                 <fieldset>
                     <legend>Pick Up Information</legend>
-                    <label for="pickupdate">Pick Up Date/Time:</label>
-                    <input type="text" id="pickupdate" name="pickupdate">
+                    <label for="pickupdate">Pick Up Date:</label>
+                    <input type="date" id="pickupdate" name="pickupdate">
+                    <label for="pickuptime">Pick Up Time:</label>
+                    <input type="time" id="pickuptime" name="pickuptime">
                     <label for="pickupname">Pick Up Name:</label>
                     <input type="text" id="pickupname" name="pickupname">
-                    <label for="pickupaddress>">Pick Up Address 5327 Whitaker Ave, Philadelphia PA</label>
-                    <input type="text-box" id="pickupaddress" name="pickupaddress">
+                    <p><strong>Pickup Address:</strong> 5327 Whitaker Ave, Philadelphia PA</p>
                 </fieldset>
                 <div class="buttons">
                     <input type="submit" value="Submit Order">
